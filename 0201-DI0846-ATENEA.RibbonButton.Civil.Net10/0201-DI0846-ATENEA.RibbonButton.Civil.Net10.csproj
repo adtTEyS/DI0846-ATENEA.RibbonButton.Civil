@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+	<!-- ====================================== -->
+	<!-- CONFIGURACIÓN GENERAL -->
+	<!-- ====================================== -->
+
 	<PropertyGroup>
+
 		<TargetFramework>net10.0-windows</TargetFramework>
 
 		<UseWPF>true</UseWPF>
@@ -11,160 +16,224 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
-		<Configurations>Debug;Release;2026;2027;2020;2021;2022;2023;2024;2025</Configurations>
+		<Configurations>Debug;Release;2025;2026;2027</Configurations>
+
 	</PropertyGroup>
 
-	<!-- Civil 2026 -->
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2026|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2026</DefineConstants>
+	<!-- ====================================== -->
+	<!-- CIVIL 3D 2025 -->
+	<!-- ====================================== -->
+
+	<PropertyGroup Condition="'$(Configuration)' == '2025'">
+
+		<DefineConstants>$(DefineConstants);CIVIL2025</DefineConstants>
+
+		<AutodeskVersion>2025</AutodeskVersion>
+
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2022|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2022</DefineConstants>
+
+	<!-- ====================================== -->
+	<!-- CIVIL 3D 2026 -->
+	<!-- ====================================== -->
+
+	<PropertyGroup Condition="'$(Configuration)' == '2026'">
+
+		<DefineConstants>$(DefineConstants);CIVIL2026</DefineConstants>
+
+		<AutodeskVersion>2026</AutodeskVersion>
+
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2023|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2023</DefineConstants>
-	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2024|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2024</DefineConstants>
-	</PropertyGroup>
+	<!-- ====================================== -->
+	<!-- CIVIL 3D 2027 -->
+	<!-- ====================================== -->
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2025|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2025</DefineConstants>
-	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)' == '2027'">
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2021|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2021</DefineConstants>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2020|AnyCPU'">
-	  <DefineConstants>$(DefineConstants);CIVIL2020</DefineConstants>
-	</PropertyGroup>
-
-	<!-- Civil 2027 -->
-
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2027|AnyCPU'">
 		<DefineConstants>$(DefineConstants);CIVIL2027</DefineConstants>
+
+		<AutodeskVersion>2027</AutodeskVersion>
+
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <None Remove="00-Resources\AteneaCompactModels.png" />
-	  <None Remove="00-Resources\typsa-dest.png" />
-	</ItemGroup>
 
-	<ItemGroup>
-	  <EmbeddedResource Include="00-Resources\AteneaCompactModels.png" />
-	  <EmbeddedResource Include="00-Resources\typsa-dest.png" />
-	</ItemGroup>
-
-	<!-- NuGet -->
-
-	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-	</ItemGroup>
-
-	<!-- Shared libraries globales -->
+	<!-- ====================================== -->
+	<!-- RESOURCES -->
+	<!-- ====================================== -->
 
 	<ItemGroup>
 
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibAutocad\TYPSA.SharedLibAutocad\TYPSA.SharedLibAutocad.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil\TYPSA.SharedLibCivil.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2027\TYPSA.SharedLibCivil_2027.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibEndPoints\TYPSA.SharedLibEndPoints\TYPSA.SharedLibEndPoints.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibExcel\TYPSA.SharedLibExcel\TYPSA.SharedLibExcel.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibForms\TYPSA.SharedLibForms\TYPSA.SharedLibForms.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibJson\TYPSA.SharedLibJson\TYPSA.SharedLibJson.csproj" />
-
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibSSO\src\Typsa.Sso.Client\TYPSA.SharedLibSSO.csproj" />
-
-		<ProjectReference Include="..\0201-DI0846-ATENEA.RibbonButton.Civil\0201-DI0846-ATENEA.RibbonButton.Civil.csproj" />
+		<None Remove="00-Resources\AteneaCompactModels.png" />
+		<None Remove="00-Resources\typsa-dest.png" />
 
 	</ItemGroup>
 
-	<!-- Shared Civil específico 2026 -->
+	<ItemGroup>
+
+		<EmbeddedResource Include="00-Resources\AteneaCompactModels.png" />
+		<EmbeddedResource Include="00-Resources\typsa-dest.png" />
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- NUGET -->
+	<!-- ====================================== -->
+
+	<ItemGroup>
+
+		<PackageReference Include="Newtonsoft.Json"
+						  Version="13.0.4" />
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- SHARED LIBRARIES GLOBALES -->
+	<!-- ====================================== -->
+
+	<ItemGroup>
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibAutocad\TYPSA.SharedLibAutocad\TYPSA.SharedLibAutocad.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil\TYPSA.SharedLibCivil.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibEndPoints\TYPSA.SharedLibEndPoints\TYPSA.SharedLibEndPoints.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibExcel\TYPSA.SharedLibExcel\TYPSA.SharedLibExcel.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibForms\TYPSA.SharedLibForms\TYPSA.SharedLibForms.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibJson\TYPSA.SharedLibJson\TYPSA.SharedLibJson.csproj" />
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibSSO\src\Typsa.Sso.Client\TYPSA.SharedLibSSO.csproj" />
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- SHARED CIVIL 2025 -->
+	<!-- ====================================== -->
+
+	<ItemGroup Condition="'$(Configuration)' == '2025'">
+
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2025\TYPSA.SharedLibCivil_2025.csproj" />
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- SHARED CIVIL 2026 -->
+	<!-- ====================================== -->
 
 	<ItemGroup Condition="'$(Configuration)' == '2026'">
 
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
 
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(Configuration)'=='2022'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
 
-	<ItemGroup Condition="'$(Configuration)'=='2023'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(Configuration)'=='2024'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(Configuration)'=='2025'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(Configuration)'=='2021'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(Configuration)'=='2020'">
-	  <ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2026\TYPSA.SharedLibCivil_2026.csproj" />
-	</ItemGroup>
-
-	<!-- Shared Civil específico 2027 -->
+	<!-- ====================================== -->
+	<!-- SHARED CIVIL 2027 -->
+	<!-- ====================================== -->
 
 	<ItemGroup Condition="'$(Configuration)' == '2027'">
 
-		<ProjectReference Include="..\..\0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2027\TYPSA.SharedLibCivil_2027.csproj" />
+		<ProjectReference Include="..\..\XX0000-TYPSA.SharedLib\0000-TYPSA.SharedLibCivil\TYPSA.SharedLibCivil_2027\TYPSA.SharedLibCivil_2027.csproj" />
 
 	</ItemGroup>
 
-	<!-- Autodesk -->
 
-	<ItemGroup>
+	<!-- ====================================== -->
+	<!-- AUTODESK REFERENCES -->
+	<!-- ====================================== -->
 
-		<Reference Include="AcCoreMgd">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\AcCoreMgd.dll</HintPath>
-			<Private>false</Private>
+	<ItemGroup Condition="'$(AutodeskVersion)' != ''">
+
+		<Reference Include="accoremgd">
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\accoremgd.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
 
-		<Reference Include="AcDbMgd">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\AcDbMgd.dll</HintPath>
-			<Private>false</Private>
+		<Reference Include="Acdbmgd">
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\acdbmgd.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
 
-		<Reference Include="AcMgd">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\AcMgd.dll</HintPath>
-			<Private>false</Private>
+		<Reference Include="Acmgd">
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\acmgd.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
 
 		<Reference Include="AdWindows">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\AdWindows.dll</HintPath>
-			<Private>false</Private>
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\AdWindows.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
 
 		<Reference Include="AecBaseMgd">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\ACA\AecBaseMgd.dll</HintPath>
-			<Private>false</Private>
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\ACA\AecBaseMgd.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
 
 		<Reference Include="AecPropDataMgd">
-			<HintPath>..\..\Program Files\Autodesk\AutoCAD 2026\ACA\AecPropDataMgd.dll</HintPath>
-			<Private>false</Private>
+
+			<HintPath>C:\Program Files\Autodesk\AutoCAD $(AutodeskVersion)\ACA\AecPropDataMgd.dll</HintPath>
+
+			<Private>False</Private>
+
 		</Reference>
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- RESOURCES DESIGNER -->
+	<!-- ====================================== -->
+
+	<ItemGroup>
+
+		<Compile Update="00-Resources\Resources.Designer.cs">
+
+			<DesignTime>True</DesignTime>
+
+			<AutoGen>True</AutoGen>
+
+		</Compile>
+
+	</ItemGroup>
+
+
+	<!-- ====================================== -->
+	<!-- RESOURCES RESX -->
+	<!-- ====================================== -->
+
+	<ItemGroup>
+
+		<EmbeddedResource Update="00-Resources\Resources.resx">
+
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+
+			<Generator>ResXFileCodeGenerator</Generator>
+
+		</EmbeddedResource>
 
 	</ItemGroup>
 

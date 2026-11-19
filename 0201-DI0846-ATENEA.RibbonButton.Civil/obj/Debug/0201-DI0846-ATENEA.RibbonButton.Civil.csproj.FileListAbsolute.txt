@@ -95,3 +95,9 @@ C:\0201-DI0846-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\bin\Debug\en-U
 C:\0201-DI0846-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\_0201_DI0846_ATENEA.RibbonButton.Civil.Properties.Resources.resources
 C:\0201-DI0846-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.csproj.GenerateResource.cache
 C:\0201-DI0846-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0.F28AA435.Up2Date
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.csproj.AssemblyReference.cache
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\_0201_DI0846_ATENEA.RibbonButton.Civil.Properties.Resources.resources
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.csproj.GenerateResource.cache
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.csproj.CoreCompileInputs.cache
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.dll
+C:\ProyectosC#\DE3157-ATENEA.Civil\0201-DI0846-ATENEA.RibbonButton.Civil\obj\Debug\0201-DI0846-ATENEA.RibbonButton.Civil.pdb

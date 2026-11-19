@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\",
+  "WorkspaceRootPath": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C40E114-24C1-4F41-904E-9094E3D09A96}|0201-DI0846-ATENEA.RibbonButton.Civil.Net48.csproj|c:\\0201-di0846-atenea.civil\\0201-di0846-atenea.ribbonbutton.civil.net48\\01-ribbon\\appateneasso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C40E114-24C1-4F41-904E-9094E3D09A96}|0201-DI0846-ATENEA.RibbonButton.Civil.Net48.csproj|solutionrelative:01-ribbon\\appateneasso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C40E114-24C1-4F41-904E-9094E3D09A96}|0201-DI0846-ATENEA.RibbonButton.Civil.Net48.csproj|c:\\proyectosc#\\de3157-atenea.civil\\0201-di0846-atenea.ribbonbutton.civil.net48\\02-buttons\\cls_00_ateneaweb\\cls_00_buttonateneaparamdataimp\\cls_00_buttonateneaparamdataimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C40E114-24C1-4F41-904E-9094E3D09A96}|0201-DI0846-ATENEA.RibbonButton.Civil.Net48.csproj|solutionrelative:02-buttons\\cls_00_ateneaweb\\cls_00_buttonateneaparamdataimp\\cls_00_buttonateneaparamdataimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cls_00_ButtonAteneaParamDataImp.cs",
+              "DocumentMoniker": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaParamDataImp\\cls_00_ButtonAteneaParamDataImp.cs",
+              "RelativeDocumentMoniker": "02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaParamDataImp\\cls_00_ButtonAteneaParamDataImp.cs",
+              "ToolTip": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaParamDataImp\\cls_00_ButtonAteneaParamDataImp.cs",
+              "RelativeToolTip": "02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaParamDataImp\\cls_00_ButtonAteneaParamDataImp.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADgv3IAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T12:50:19.462Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
@@ -47,19 +60,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppAteneaSSO.cs",
-              "DocumentMoniker": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\01-Ribbon\\AppAteneaSSO.cs",
-              "RelativeDocumentMoniker": "01-Ribbon\\AppAteneaSSO.cs",
-              "ToolTip": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net48\\01-Ribbon\\AppAteneaSSO.cs",
-              "RelativeToolTip": "01-Ribbon\\AppAteneaSSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T19:13:39.81Z",
-              "EditorCaption": ""
             }
           ]
         },

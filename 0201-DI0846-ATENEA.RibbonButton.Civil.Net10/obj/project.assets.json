@@ -15,24 +15,6 @@
           }
         }
       },
-      "0201-DI0846-ATENEA.RibbonButton.Civil/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "TYPSA.SharedLibAutocad": "1.0.0",
-          "TYPSA.SharedLibCivil": "1.0.0",
-          "TYPSA.SharedLibEndPoints": "1.0.0",
-          "TYPSA.SharedLibExcel": "1.0.0",
-          "TYPSA.SharedLibForms": "1.0.0",
-          "TYPSA.SharedLibJson": "1.0.0",
-          "Typsa.Sso.Client": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/0201-DI0846-ATENEA.RibbonButton.Civil.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/0201-DI0846-ATENEA.RibbonButton.Civil.dll": {}
-        }
-      },
       "TYPSA.SharedLibAutocad/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -62,24 +44,13 @@
           "bin/placeholder/TYPSA.SharedLibCivil.dll": {}
         }
       },
-      "TYPSA.SharedLibCivil_2026/1.0.0": {
+      "TYPSA.SharedLibCivil_2025/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/TYPSA.SharedLibCivil_2026.dll": {}
+          "bin/placeholder/TYPSA.SharedLibCivil_2025.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TYPSA.SharedLibCivil_2026.dll": {}
-        }
-      },
-      "TYPSA.SharedLibCivil_2027/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/TYPSA.SharedLibCivil_2027.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TYPSA.SharedLibCivil_2027.dll": {}
+          "bin/placeholder/TYPSA.SharedLibCivil_2025.dll": {}
         }
       },
       "TYPSA.SharedLibEndPoints/1.0.0": {
@@ -169,65 +140,53 @@
         "packageIcon.png"
       ]
     },
-    "0201-DI0846-ATENEA.RibbonButton.Civil/1.0.0": {
-      "type": "project",
-      "path": "../0201-DI0846-ATENEA.RibbonButton.Civil/0201-DI0846-ATENEA.RibbonButton.Civil.csproj",
-      "msbuildProject": "../0201-DI0846-ATENEA.RibbonButton.Civil/0201-DI0846-ATENEA.RibbonButton.Civil.csproj"
-    },
     "TYPSA.SharedLibAutocad/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad/TYPSA.SharedLibAutocad.csproj"
     },
     "TYPSA.SharedLibCivil/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil/TYPSA.SharedLibCivil.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil/TYPSA.SharedLibCivil.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil/TYPSA.SharedLibCivil.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil/TYPSA.SharedLibCivil.csproj"
     },
-    "TYPSA.SharedLibCivil_2026/1.0.0": {
+    "TYPSA.SharedLibCivil_2025/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2026/TYPSA.SharedLibCivil_2026.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2026/TYPSA.SharedLibCivil_2026.csproj"
-    },
-    "TYPSA.SharedLibCivil_2027/1.0.0": {
-      "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2027/TYPSA.SharedLibCivil_2027.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2027/TYPSA.SharedLibCivil_2027.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2025/TYPSA.SharedLibCivil_2025.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibCivil/TYPSA.SharedLibCivil_2025/TYPSA.SharedLibCivil_2025.csproj"
     },
     "TYPSA.SharedLibEndPoints/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints/TYPSA.SharedLibEndPoints.csproj"
     },
     "TYPSA.SharedLibExcel/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibExcel/TYPSA.SharedLibExcel/TYPSA.SharedLibExcel.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibExcel/TYPSA.SharedLibExcel/TYPSA.SharedLibExcel.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibExcel/TYPSA.SharedLibExcel/TYPSA.SharedLibExcel.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibExcel/TYPSA.SharedLibExcel/TYPSA.SharedLibExcel.csproj"
     },
     "TYPSA.SharedLibForms/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibForms/TYPSA.SharedLibForms/TYPSA.SharedLibForms.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibForms/TYPSA.SharedLibForms/TYPSA.SharedLibForms.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibForms/TYPSA.SharedLibForms/TYPSA.SharedLibForms.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibForms/TYPSA.SharedLibForms/TYPSA.SharedLibForms.csproj"
     },
     "TYPSA.SharedLibJson/1.0.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibJson/TYPSA.SharedLibJson/TYPSA.SharedLibJson.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibJson/TYPSA.SharedLibJson/TYPSA.SharedLibJson.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibJson/TYPSA.SharedLibJson/TYPSA.SharedLibJson.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibJson/TYPSA.SharedLibJson/TYPSA.SharedLibJson.csproj"
     },
     "Typsa.Sso.Client/0.1.0": {
       "type": "project",
-      "path": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibSSO/src/Typsa.Sso.Client/TYPSA.SharedLibSSO.csproj",
-      "msbuildProject": "../../0000-TYPSA.SharedLib/0000-TYPSA.SharedLibSSO/src/Typsa.Sso.Client/TYPSA.SharedLibSSO.csproj"
+      "path": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibSSO/src/Typsa.Sso.Client/TYPSA.SharedLibSSO.csproj",
+      "msbuildProject": "../../XX0000-TYPSA.SharedLib/0000-TYPSA.SharedLibSSO/src/Typsa.Sso.Client/TYPSA.SharedLibSSO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0-windows": [
-      "0201-DI0846-ATENEA.RibbonButton.Civil >= 1.0.0",
       "Newtonsoft.Json >= 13.0.4",
       "TYPSA.SharedLibAutocad >= 1.0.0",
       "TYPSA.SharedLibCivil >= 1.0.0",
-      "TYPSA.SharedLibCivil_2026 >= 1.0.0",
-      "TYPSA.SharedLibCivil_2027 >= 1.0.0",
+      "TYPSA.SharedLibCivil_2025 >= 1.0.0",
       "TYPSA.SharedLibEndPoints >= 1.0.0",
       "TYPSA.SharedLibExcel >= 1.0.0",
       "TYPSA.SharedLibForms >= 1.0.0",
@@ -242,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj",
+      "projectUniqueName": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj",
       "projectName": "0201-DI0846-ATENEA.RibbonButton.Civil.Net10",
-      "projectPath": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj",
+      "projectPath": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj",
       "packagesPath": "C:\\Users\\psilla\\.nuget\\packages\\",
-      "outputPath": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\obj\\",
+      "outputPath": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -268,35 +227,29 @@
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2026\\TYPSA.SharedLibCivil_2026.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2026\\TYPSA.SharedLibCivil_2026.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2025\\TYPSA.SharedLibCivil_2025.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2025\\TYPSA.SharedLibCivil_2025.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2027\\TYPSA.SharedLibCivil_2027.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibCivil\\TYPSA.SharedLibCivil_2027\\TYPSA.SharedLibCivil_2027.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints\\TYPSA.SharedLibEndPoints.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel\\TYPSA.SharedLibExcel.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibForms\\TYPSA.SharedLibForms\\TYPSA.SharedLibForms.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibForms\\TYPSA.SharedLibForms\\TYPSA.SharedLibForms.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibForms\\TYPSA.SharedLibForms\\TYPSA.SharedLibForms.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibForms\\TYPSA.SharedLibForms\\TYPSA.SharedLibForms.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibJson\\TYPSA.SharedLibJson\\TYPSA.SharedLibJson.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibJson\\TYPSA.SharedLibJson\\TYPSA.SharedLibJson.csproj"
             },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibJson\\TYPSA.SharedLibJson\\TYPSA.SharedLibJson.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibJson\\TYPSA.SharedLibJson\\TYPSA.SharedLibJson.csproj"
-            },
-            "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibSSO\\src\\Typsa.Sso.Client\\TYPSA.SharedLibSSO.csproj": {
-              "projectPath": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibSSO\\src\\Typsa.Sso.Client\\TYPSA.SharedLibSSO.csproj"
-            },
-            "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.csproj": {
-              "projectPath": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.csproj"
+            "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibSSO\\src\\Typsa.Sso.Client\\TYPSA.SharedLibSSO.csproj": {
+              "projectPath": "C:\\ProyectosC#\\XX0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibSSO\\src\\Typsa.Sso.Client\\TYPSA.SharedLibSSO.csproj"
             }
           }
         }

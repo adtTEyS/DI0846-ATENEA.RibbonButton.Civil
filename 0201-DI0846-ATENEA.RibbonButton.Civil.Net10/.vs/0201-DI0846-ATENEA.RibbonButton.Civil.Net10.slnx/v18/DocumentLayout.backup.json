@@ -1,9 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\0201-DI0846-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\",
+  "WorkspaceRootPath": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{631B9318-A021-4B24-87F0-3FEC637EAE77}|..\\..\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad.csproj|c:\\0000-typsa.sharedlib\\0000-typsa.sharedlibautocad\\typsa.sharedlibautocad\\cls_00_processresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05F74510-EC0D-2625-0E49-8976573195C4}|0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj|c:\\proyectosc#\\de3157-atenea.civil\\0201-di0846-atenea.ribbonbutton.civil.net10\\02-buttons\\cls_00_ateneaweb\\cls_00_buttonateneamodelchecker\\cls_00_mainateneamodelchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F74510-EC0D-2625-0E49-8976573195C4}|0201-DI0846-ATENEA.RibbonButton.Civil.Net10.csproj|solutionrelative:02-buttons\\cls_00_ateneaweb\\cls_00_buttonateneamodelchecker\\cls_00_mainateneamodelchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,14 +51,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cls_00_ProcessResult.cs",
-              "DocumentMoniker": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\cls_00_ProcessResult.cs",
-              "RelativeDocumentMoniker": "..\\..\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\cls_00_ProcessResult.cs",
-              "ToolTip": "C:\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\cls_00_ProcessResult.cs",
-              "RelativeToolTip": "..\\..\\0000-TYPSA.SharedLib\\0000-TYPSA.SharedLibAutocad\\TYPSA.SharedLibAutocad\\cls_00_ProcessResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "cls_00_MainAteneaModelChecker.cs",
+              "DocumentMoniker": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaModelChecker\\cls_00_MainAteneaModelChecker.cs",
+              "RelativeDocumentMoniker": "02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaModelChecker\\cls_00_MainAteneaModelChecker.cs",
+              "ToolTip": "C:\\ProyectosC#\\DE3157-ATENEA.Civil\\0201-DI0846-ATENEA.RibbonButton.Civil.Net10\\02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaModelChecker\\cls_00_MainAteneaModelChecker.cs",
+              "RelativeToolTip": "02-Buttons\\cls_00_AteneaWeb\\cls_00_ButtonAteneaModelChecker\\cls_00_MainAteneaModelChecker.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAASwEYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T07:25:40.448Z",
+              "WhenOpened": "2026-11-13T12:24:53.167Z",
               "EditorCaption": ""
             }
           ]

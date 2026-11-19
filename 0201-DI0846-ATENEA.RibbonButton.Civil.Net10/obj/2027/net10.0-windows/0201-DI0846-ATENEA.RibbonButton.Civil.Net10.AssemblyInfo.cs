@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("0201-DI0846-ATENEA.RibbonButton.Civil.Net10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("2027")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d82ae7115408837c67fad45a511600b7ad0a38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd26a1554038a726b40a594fbe9a1f24626479d")]
 [assembly: System.Reflection.AssemblyProductAttribute("0201-DI0846-ATENEA.RibbonButton.Civil.Net10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("0201-DI0846-ATENEA.RibbonButton.Civil.Net10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
